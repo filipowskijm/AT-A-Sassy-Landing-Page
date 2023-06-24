@@ -33,7 +33,31 @@ a {
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
   // 3. At-Rules
 
-  @mixin set-bg($primary-color){}
+  @include set-bg($primary-color);
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  li {
+    padding: 10px;
+    a{
+      color: $secondary-color;
+    }
+  }
+  .hero-content {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+  }
+  img {
+    height: 400px;
+  }
 }
 
 // This code is related to some of the aspects of SCSS we have yet to cover.

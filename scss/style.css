@@ -52,6 +52,34 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  background-color: #000814;
+  color: white;
+}
+.hero nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero ul {
+  display: flex;
+  list-style-type: none;
+}
+.hero li {
+  padding: 10px;
+}
+.hero li a {
+  color: #a2d0fc;
+}
+.hero .hero-content {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+.hero img {
+  height: 400px;
+}
+
 .m-1 {
   margin: 1rem;
 }
